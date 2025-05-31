@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contador.</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>Contador.</header>
+    <section id="painel">
+      <div id="entrada">
+        <p>Por favor, insira os dados para a contagem.</p>
+        <p>Início: <input type="number" class="but" id="ini" /></p>
+        <p>Fim: <input type="number" class="but" id="fim" /></p>
+        <p>Passo: <input type="number" class="but" id="pas" />:</p>
+        <input
+          type="button"
+          value="Contar."
+          class="butao"
+          id="calc"
+          onclick="calc()"
+        />
+        <input
+          type="button"
+          value="Limpar."
+          class="butao"
+          id="limp"
+          onclick="limp()"
+        />
+      </div>
+      <div id="res">
+        <p></p>
+      </div>
+    </section>
+    <footer>@luqastw</footer>
+  </body>
+  <script src="script.js"></script>
+</html>

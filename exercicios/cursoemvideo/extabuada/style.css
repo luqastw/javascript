@@ -1,0 +1,31 @@
+html {
+  font-family: inter;
+  background-color: rgb(179, 252, 186);
+}
+header {
+  text-align: center;
+  margin: 20px;
+  font-size: 30px;
+  font-family: jetbrains mono;
+  font-weight: bold;
+}
+section {
+  text-align: center;
+  background-color: white;
+  padding: 30px;
+  margin: auto;
+  border-radius: 10px;
+  width: 250px;
+  box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.2);
+}
+#num {
+  border-radius: 5px;
+  width: 70px;
+}
+footer {
+  text-align: center;
+  font-size: 12px;
+  margin: 20px;
+  font-family: jetbrains mono;
+  font-style: italic;
+}
