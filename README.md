@@ -1,21 +1,32 @@
+<img src="https://github.com/luqastw/html-css/blob/main/assets/chibispiderpunksfundo.png" align="right" width="200spx">
+
 # JavaScript
 
-⭐ Repository used to organize and archive my JavaScript study with exercises, projects and notes that I consider important. Prone to constant changes.
+⭐ Repository used to organize and archive my JavaScript study with exercises, projects and notes that I consider important. Prone to constant changes. [^artist]
 
-"<strong><a href="https://youtube.com/playlist?list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n&si=iDWdlknN46P0sSgT">Curso HTML5 e CSS3</a></strong>" <em>Curso em Vídeo.</em>
+## Courses
 
-- <a href="https://luqastw.github.io/javascript/exercicios/cursoemvideo/exverificadorbrasil/">Exercice 01: Verificador Brasil.</a>
+- [Curso Grátis de JavaScript e ECMAScript para Iniciantes](https://www.youtube.com/playlist?list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1) - [Gustavo Guanabara](https://github.com/gustavoguanabara).[^course1]
+  - [Original Repository](https://github.com/gustavoguanabara/javascript).
+  - [Exercices](#).
+  - [Challenges](#).
 
-- <a href="https://luqastw.github.io/javascript/exercicios/cursoemvideo/excontador/">Exercice 02: Contador.</a>
+## Own Projects
 
-- <a href="https://luqastw.github.io/javascript/exercicios/cursoemvideo/extabuada/">Exercice 03: Tabuada. (WIP)</a>
+> [!IMPORTANT]
+> All projects will strictly use JavaScript, HTML, CSS and some frameworks.
 
-`Not organized chronologically, they are just exercises done through this course.`
+`nothing here yet. grab a coffee and be patient...`
 
-# Extensions
+## Notes
 
-(WIP)
+> These are just text files with notes that I will make during my studies. Maybe it will be useful for someone?
 
-#
+`more coffee?`
+
+###### Contacts
 
 <img alt="Static Badge" src="https://img.shields.io/badge/github-black?style=for-the-badge&logo=github&link=https%3A%2F%2Fgithub.com%2Fluqastw"/> <img alt="Static Badge" src="https://img.shields.io/badge/linkedin-white?style=for-the-badge&logo=invision&logoColor=blue&link=https%3A%2F%2Fwww.linkedin.com%2Fin%2Flucasborcem%2F">
+
+[^artist]: Artist: HotrodFebreeze
+[^course1]: This course has only one playlist with all modules.
