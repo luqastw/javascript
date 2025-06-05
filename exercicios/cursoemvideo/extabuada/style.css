@@ -1,6 +1,6 @@
 html {
   font-family: inter;
-  background-color: rgb(179, 252, 186);
+  background-color: rgb(149, 149, 149);
 }
 header {
   text-align: center;
@@ -10,13 +10,25 @@ header {
   font-weight: bold;
 }
 section {
+  font-size: 15px;
   text-align: center;
   background-color: white;
   padding: 30px;
   margin: auto;
   border-radius: 10px;
-  width: 250px;
+  width: 350px;
   box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.2);
+}
+div {
+  margin: 20px;
+}
+#tab {
+  margin: auto;
+  font-family: jetbrains mono;
+  font-size: 12px;
+  border-radius: 5px;
+  padding: 5px;
+  width: 250px;
 }
 #num {
   border-radius: 5px;

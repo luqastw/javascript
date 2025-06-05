@@ -10,12 +10,21 @@
     <header>Tabuada.</header>
     <section>
       <div id="ent">
-        <p>Insira o valor da tabuada que deseja calcular:</p>
-        <input type="number" id="num" placeholder="Ex: 4" />
-        <input type="button" id="calc" value="Calcular." />
-        <input type="button" id="limp" value="Limpar." />
+        <p>Insira o valor da tabuada que deseja gerar:</p>
+        <input type="number" id="num" placeholder=" Ex: 4" />
+        <input
+          type="button"
+          id="gerar"
+          value="Gerar Tabuada."
+          onclick="gerar()"
+        />
+        <input type="button" id="limp" value="Limpar." onclick="limp()" />
       </div>
-      <div id="res"></div>
+      <div id="res">
+        <select name="tabuada" id="tab" size="10">
+          <option id="op">Digite um valor logo acima.</option>
+        </select>
+      </div>
     </section>
     <footer>@luqastw</footer>
   </body>
