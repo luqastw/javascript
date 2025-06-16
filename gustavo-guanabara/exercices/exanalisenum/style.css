@@ -1,0 +1,73 @@
+html {
+  font-family: inter display;
+  font-size: 16px;
+  background-color: #a7a7a7;
+}
+header {
+  font-family: jetbrains mono;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  padding: 30px;
+}
+section {
+  text-align: center;
+  background-color: white;
+  padding: 30px;
+  width: 500px;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.3);
+}
+div {
+  margin: 15px;
+}
+#in {
+  background-color: #727272;
+  padding: 20px;
+  border-radius: 15px;
+}
+#num {
+  background-color: #dddcdc;
+  padding: 10px;
+  width: 130px;
+  border-radius: 15px;
+  border: transparent;
+}
+#add {
+  background-color: #dddcdc;
+  font-family: inter;
+  font-weight: bold;
+  padding: 10px;
+  border: transparent;
+  border-radius: 20px;
+  width: 130px;
+}
+#limp {
+  background-color: #dddcdc;
+  font-family: inter;
+  font-weight: bold;
+  padding: 10px;
+  border: transparent;
+  border-radius: 20px;
+  width: 130px;
+}
+#out {
+  padding: 20px;
+  border-radius: 15px;
+  background-color: #dddcdc;
+}
+#fim {
+  font-family: inter;
+  font-weight: bold;
+  width: 130px;
+  padding: 10px;
+  background-color: #dddcdc;
+  border-radius: 20px;
+  border: transparent;
+}
+#cont {
+  font-family: inter;
+  font-size: 10px;
+  color: #727272;
+}
