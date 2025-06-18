@@ -1,3 +1,5 @@
+// Estudo sobre Stack.
+
 // unidade do stack que vai ser adicionado a pilha.
 // será o topo.
 class StackNode {
