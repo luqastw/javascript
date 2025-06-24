@@ -1,0 +1,64 @@
+html {
+  font-family: "Inter Display";
+  background-color: #eef4ed;
+}
+header {
+  font-family: Inter;
+  padding: 20px;
+  color: #0b2545;
+  font-size: 25px;
+  font-weight: 800;
+  text-align: center;
+}
+section {
+  font-size: 15px;
+  padding: 30px;
+  margin: auto;
+  width: 400px;
+  color: #eef4ed;
+  background-color: #0b2545;
+  border-radius: 25px;
+  text-align: center;
+}
+.preview {
+  padding: 20px;
+  border-radius: 20px;
+  color: #eef4ed;
+  background-color: #13315c;
+}
+.previewshow {
+  padding: 15px;
+  border-radius: 20px;
+  color: #202020;
+  background-color: #eef4ed;
+}
+div {
+  margin: 10px;
+}
+.inputs {
+  width: 100px;
+  padding: 5px;
+  border-radius: 8px;
+  border: 0;
+}
+.outshow {
+  padding: 10px;
+  border-radius: 20px;
+  color: #202020;
+  background-color: #eef4ed;
+}
+#but {
+  border: 0;
+  padding: 5px;
+  width: 80px;
+  border-radius: 8px;
+  background-color: #8da9c4;
+  font-weight: 500;
+}
+footer {
+  font-family: Inter;
+  text-align: center;
+  padding: 20px;
+  font-size: 10px;
+  color: #202020;
+}
