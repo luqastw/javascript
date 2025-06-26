@@ -1,0 +1,22 @@
+html {
+    background-color: darkgray;
+    font-family: Inter;
+    text-align: center;
+}
+header {
+    font-weight: 600;
+    padding: 15px;
+}
+section {
+    padding: 30px;
+    background-color: white;
+    width: 300px;
+    margin: auto;
+    border-radius: 20px;
+}
+#num {
+    width: 50px;
+}
+#but {
+    width: 100px;
+}

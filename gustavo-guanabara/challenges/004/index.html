@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafio do Troco.</title>
+  </head>
+  <body>
+    <header>Desafio do Troco.</header>
+    <section>
+      <div class="errorwindow">
+        <p></p>
+      </div>
+      <div class="preview">
+        <p>Qual o produto você quer comprar?</p>
+        <input type="text" placeholder=" Ex: Televisão" class="buttons" id="product" />
+        <p>Qual o valor desse produto?</p>
+        <input type="number" placeholder=" Ex: 500" class="buttons" id="val" />
+        <p>Quanto você pagou?</p>
+        <input type="number" placeholder=" Ex: 700" class="buttons" id="paid" />
+        <br />
+        <input type="button" value="Calcular." id="calc" onclick="calc()" />
+        <p></p>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
