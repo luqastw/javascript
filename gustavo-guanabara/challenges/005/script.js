@@ -2,7 +2,7 @@ const m_value = document.querySelector("#mvalue");
 const exit = document.querySelector(".exit");
 
 function convert() {
-  if (m_value.length.value == 0) {
+  if (m_value.value.length == 0) {
     exit.innerHTML = null;
     exit.innerHTML = "Erro. Por favor, informe um valor válido.";
   } else {
@@ -46,7 +46,7 @@ function convert() {
 
     const res_mm = document.createElement("p");
     const mm_value = document.createTextNode(
-      `${Number(m_value.value) * 100} milímetros (mm).`
+      `${Number(m_value.value) * 1000} milímetros (mm).`
     );
     res_mm.appendChild(mm_value);
     exit.appendChild(res_mm);
