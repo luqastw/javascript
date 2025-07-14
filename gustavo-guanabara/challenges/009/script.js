@@ -57,14 +57,23 @@ function sendname() {
             input_div.innerHTML = null;
 
             function getBRL(num) {
-              return num.toLocaleString("pt-br", { style: "currency", currency: "BRL" });
+              return num.toLocaleString("pt-br", {
+                style: "currency",
+                currency: "BRL",
+              });
             }
 
-            output_div.innerHTML = `O salário inicial de <b>${name.value}</b> é de <b>${getBRL(Number(salary.value))}</b>.<br>`;
-            output_div.innerHTML += `O reajuste de <b>${increase.value}%</b> equivale a <b>${getBRL(
+            output_div.innerHTML = `O salário inicial de <b>${
+              name.value
+            }</b> é de <b>${getBRL(Number(salary.value))}</b>.<br>`;
+            output_div.innerHTML += `O reajuste de <b>${
+              increase.value
+            }%</b> equivale a <b>${getBRL(
               Number(salary.value * (increase.value / 100))
             )}</b> para o funcionário.<br>`;
-            output_div.innerHTML += `Com isso, <b>${name.value}</b> passará a receber <b>${getBRL(
+            output_div.innerHTML += `Com isso, <b>${
+              name.value
+            }</b> passará a receber <b>${getBRL(
               Number(salary.value * (increase.value / 100 + 1))
             )}</b>.`;
           }
