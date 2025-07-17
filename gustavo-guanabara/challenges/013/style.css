@@ -1,0 +1,15 @@
+.ENTRY_BUTTON {
+  padding: 20px;
+}
+b.red {
+  color: red;
+  background-color: rgb(255, 199, 199);
+}
+b.orange {
+  color: orange;
+  background-color: rgb(255, 236, 202);
+}
+b.green {
+  color: green;
+  background-color: rgb(199, 255, 199);
+}
